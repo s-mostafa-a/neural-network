@@ -1,0 +1,28 @@
+# compile vhdl design source files
+vhdl2008 xil_defaultlib  \
+"../../../../final_from_begining.srcs/sources_1/new/package_util.vhd" \
+"../../../../final_from_begining.srcs/sources_1/new/constants_package.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../final_from_begining.srcs/sources_1/new/neural_network.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../final_from_begining.srcs/sources_1/new/Ctildet.vhd" \
+"../../../../final_from_begining.srcs/sources_1/new/Ft.vhd" \
+"../../../../final_from_begining.srcs/sources_1/new/It.vhd" \
+"../../../../final_from_begining.srcs/sources_1/new/NtoOneAdder.vhd" \
+"../../../../final_from_begining.srcs/sources_1/new/Ot.vhd" \
+"../../../../final_from_begining.srcs/sources_1/new/cell.vhd" \
+"../../../../final_from_begining.srcs/sources_1/new/classify.vhd" \
+"../../../../final_from_begining.srcs/sources_1/new/hadamard.vhd" \
+"../../../../final_from_begining.srcs/sources_1/new/matrix_multipler.vhd" \
+"../../../../final_from_begining.srcs/sources_1/new/matrix_sigmoid.vhd" \
+"../../../../final_from_begining.srcs/sources_1/new/matrix_tanh.vhd" \
+"../../../../final_from_begining.srcs/sources_1/new/multipler_module_real.vhd" \
+"../../../../final_from_begining.srcs/sources_1/new/sigmoid_module_real.vhd" \
+"../../../../final_from_begining.srcs/sources_1/new/tanh_module_real.vhd" \
+"../../../../final_from_begining.srcs/sources_1/new/vector_adder.vhd" \
+"../../../../final_from_begining.srcs/sources_1/new/test_modules.vhd" \
+
+# Do not sort compile order
+nosort

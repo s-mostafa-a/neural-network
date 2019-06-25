@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_modules_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="constants_package" />
+            <top_module name="package_util" />
+            <top_module name="test_modules" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="605234461fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="122"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="83" />
+   <wvobject fp_name="/test_modules/nn/cell0/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/x_in" type="array">
+      <obj_property name="ElementShortName">x_in[0:3]</obj_property>
+      <obj_property name="ObjectShortName">x_in[0:3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/h_in" type="array">
+      <obj_property name="ElementShortName">h_in[0:7]</obj_property>
+      <obj_property name="ObjectShortName">h_in[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/c_in" type="array">
+      <obj_property name="ElementShortName">c_in[0:7]</obj_property>
+      <obj_property name="ObjectShortName">c_in[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/h_out" type="array">
+      <obj_property name="ElementShortName">h_out[0:7]</obj_property>
+      <obj_property name="ObjectShortName">h_out[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/c_out" type="array">
+      <obj_property name="ElementShortName">c_out[0:7]</obj_property>
+      <obj_property name="ObjectShortName">c_out[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/outs" type="array">
+      <obj_property name="ElementShortName">outs[0:7]</obj_property>
+      <obj_property name="ObjectShortName">outs[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/f" type="array">
+      <obj_property name="ElementShortName">f[0:7]</obj_property>
+      <obj_property name="ObjectShortName">f[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/i" type="array">
+      <obj_property name="ElementShortName">i[0:7]</obj_property>
+      <obj_property name="ObjectShortName">i[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/ctilde" type="array">
+      <obj_property name="ElementShortName">ctilde[0:7]</obj_property>
+      <obj_property name="ObjectShortName">ctilde[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/o" type="array">
+      <obj_property name="ElementShortName">o[0:7]</obj_property>
+      <obj_property name="ObjectShortName">o[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/temp_hadamard_of_f_cin" type="array">
+      <obj_property name="ElementShortName">temp_hadamard_of_f_cin[0:7]</obj_property>
+      <obj_property name="ObjectShortName">temp_hadamard_of_f_cin[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/temp_hadamard_of_ctilde_i" type="array">
+      <obj_property name="ElementShortName">temp_hadamard_of_ctilde_i[0:7]</obj_property>
+      <obj_property name="ObjectShortName">temp_hadamard_of_ctilde_i[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/temp_hadamard_of_o_tanhcout" type="array">
+      <obj_property name="ElementShortName">temp_hadamard_of_o_tanhcout[0:7]</obj_property>
+      <obj_property name="ObjectShortName">temp_hadamard_of_o_tanhcout[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/temp_ct" type="array">
+      <obj_property name="ElementShortName">temp_ct[0:7]</obj_property>
+      <obj_property name="ObjectShortName">temp_ct[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/temp_out_of_tanh" type="array">
+      <obj_property name="ElementShortName">temp_out_of_tanh[0:7]</obj_property>
+      <obj_property name="ObjectShortName">temp_out_of_tanh[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/c_in_fifo0" type="array">
+      <obj_property name="ElementShortName">c_in_fifo0[0:7]</obj_property>
+      <obj_property name="ObjectShortName">c_in_fifo0[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/c_in_fifo1" type="array">
+      <obj_property name="ElementShortName">c_in_fifo1[0:7]</obj_property>
+      <obj_property name="ObjectShortName">c_in_fifo1[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/c_in_fifo2" type="array">
+      <obj_property name="ElementShortName">c_in_fifo2[0:7]</obj_property>
+      <obj_property name="ObjectShortName">c_in_fifo2[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/c_in_fifo3" type="array">
+      <obj_property name="ElementShortName">c_in_fifo3[0:7]</obj_property>
+      <obj_property name="ObjectShortName">c_in_fifo3[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/c_in_fifo4" type="array">
+      <obj_property name="ElementShortName">c_in_fifo4[0:7]</obj_property>
+      <obj_property name="ObjectShortName">c_in_fifo4[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/c_in_fifo5" type="array">
+      <obj_property name="ElementShortName">c_in_fifo5[0:7]</obj_property>
+      <obj_property name="ObjectShortName">c_in_fifo5[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/c_out_fifo0" type="array">
+      <obj_property name="ElementShortName">c_out_fifo0[0:7]</obj_property>
+      <obj_property name="ObjectShortName">c_out_fifo0[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/c_out_fifo1" type="array">
+      <obj_property name="ElementShortName">c_out_fifo1[0:7]</obj_property>
+      <obj_property name="ObjectShortName">c_out_fifo1[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/c_out_fifo2" type="array">
+      <obj_property name="ElementShortName">c_out_fifo2[0:7]</obj_property>
+      <obj_property name="ObjectShortName">c_out_fifo2[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/enable_of_ot" type="logic">
+      <obj_property name="ElementShortName">enable_of_ot</obj_property>
+      <obj_property name="ObjectShortName">enable_of_ot</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/enable_of_functions" type="logic">
+      <obj_property name="ElementShortName">enable_of_functions</obj_property>
+      <obj_property name="ObjectShortName">enable_of_functions</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/hadamard1_enable" type="logic">
+      <obj_property name="ElementShortName">hadamard1_enable</obj_property>
+      <obj_property name="ObjectShortName">hadamard1_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/hadamard2_enable" type="logic">
+      <obj_property name="ElementShortName">hadamard2_enable</obj_property>
+      <obj_property name="ObjectShortName">hadamard2_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/hadamard3_enable" type="logic">
+      <obj_property name="ElementShortName">hadamard3_enable</obj_property>
+      <obj_property name="ObjectShortName">hadamard3_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/tanh_enable" type="logic">
+      <obj_property name="ElementShortName">tanh_enable</obj_property>
+      <obj_property name="ObjectShortName">tanh_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/en_for_6fifo" type="logic">
+      <obj_property name="ElementShortName">en_for_6fifo</obj_property>
+      <obj_property name="ObjectShortName">en_for_6fifo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/en_for_4fifo" type="logic">
+      <obj_property name="ElementShortName">en_for_4fifo</obj_property>
+      <obj_property name="ObjectShortName">en_for_4fifo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cell0/enable_register" type="array">
+      <obj_property name="ElementShortName">enable_register[0:10]</obj_property>
+      <obj_property name="ObjectShortName">enable_register[0:10]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/x_in" type="array">
+      <obj_property name="ElementShortName">x_in[0:3]</obj_property>
+      <obj_property name="ObjectShortName">x_in[0:3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/h_in" type="array">
+      <obj_property name="ElementShortName">h_in[0:7]</obj_property>
+      <obj_property name="ObjectShortName">h_in[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/c_in" type="array">
+      <obj_property name="ElementShortName">c_in[0:7]</obj_property>
+      <obj_property name="ObjectShortName">c_in[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/h_out" type="array">
+      <obj_property name="ElementShortName">h_out[0:7]</obj_property>
+      <obj_property name="ObjectShortName">h_out[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/c_out" type="array">
+      <obj_property name="ElementShortName">c_out[0:7]</obj_property>
+      <obj_property name="ObjectShortName">c_out[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/outs" type="array">
+      <obj_property name="ElementShortName">outs[0:7]</obj_property>
+      <obj_property name="ObjectShortName">outs[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/f" type="array">
+      <obj_property name="ElementShortName">f[0:7]</obj_property>
+      <obj_property name="ObjectShortName">f[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/i" type="array">
+      <obj_property name="ElementShortName">i[0:7]</obj_property>
+      <obj_property name="ObjectShortName">i[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/ctilde" type="array">
+      <obj_property name="ElementShortName">ctilde[0:7]</obj_property>
+      <obj_property name="ObjectShortName">ctilde[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/o" type="array">
+      <obj_property name="ElementShortName">o[0:7]</obj_property>
+      <obj_property name="ObjectShortName">o[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/temp_hadamard_of_f_cin" type="array">
+      <obj_property name="ElementShortName">temp_hadamard_of_f_cin[0:7]</obj_property>
+      <obj_property name="ObjectShortName">temp_hadamard_of_f_cin[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/temp_hadamard_of_ctilde_i" type="array">
+      <obj_property name="ElementShortName">temp_hadamard_of_ctilde_i[0:7]</obj_property>
+      <obj_property name="ObjectShortName">temp_hadamard_of_ctilde_i[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/temp_hadamard_of_o_tanhcout" type="array">
+      <obj_property name="ElementShortName">temp_hadamard_of_o_tanhcout[0:7]</obj_property>
+      <obj_property name="ObjectShortName">temp_hadamard_of_o_tanhcout[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/temp_ct" type="array">
+      <obj_property name="ElementShortName">temp_ct[0:7]</obj_property>
+      <obj_property name="ObjectShortName">temp_ct[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/temp_out_of_tanh" type="array">
+      <obj_property name="ElementShortName">temp_out_of_tanh[0:7]</obj_property>
+      <obj_property name="ObjectShortName">temp_out_of_tanh[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/c_in_fifo0" type="array">
+      <obj_property name="ElementShortName">c_in_fifo0[0:7]</obj_property>
+      <obj_property name="ObjectShortName">c_in_fifo0[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/c_in_fifo1" type="array">
+      <obj_property name="ElementShortName">c_in_fifo1[0:7]</obj_property>
+      <obj_property name="ObjectShortName">c_in_fifo1[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/c_in_fifo2" type="array">
+      <obj_property name="ElementShortName">c_in_fifo2[0:7]</obj_property>
+      <obj_property name="ObjectShortName">c_in_fifo2[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/c_in_fifo3" type="array">
+      <obj_property name="ElementShortName">c_in_fifo3[0:7]</obj_property>
+      <obj_property name="ObjectShortName">c_in_fifo3[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/c_in_fifo4" type="array">
+      <obj_property name="ElementShortName">c_in_fifo4[0:7]</obj_property>
+      <obj_property name="ObjectShortName">c_in_fifo4[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/c_in_fifo5" type="array">
+      <obj_property name="ElementShortName">c_in_fifo5[0:7]</obj_property>
+      <obj_property name="ObjectShortName">c_in_fifo5[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/c_out_fifo0" type="array">
+      <obj_property name="ElementShortName">c_out_fifo0[0:7]</obj_property>
+      <obj_property name="ObjectShortName">c_out_fifo0[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/c_out_fifo1" type="array">
+      <obj_property name="ElementShortName">c_out_fifo1[0:7]</obj_property>
+      <obj_property name="ObjectShortName">c_out_fifo1[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/c_out_fifo2" type="array">
+      <obj_property name="ElementShortName">c_out_fifo2[0:7]</obj_property>
+      <obj_property name="ObjectShortName">c_out_fifo2[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/enable_of_ot" type="logic">
+      <obj_property name="ElementShortName">enable_of_ot</obj_property>
+      <obj_property name="ObjectShortName">enable_of_ot</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/enable_of_functions" type="logic">
+      <obj_property name="ElementShortName">enable_of_functions</obj_property>
+      <obj_property name="ObjectShortName">enable_of_functions</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/hadamard1_enable" type="logic">
+      <obj_property name="ElementShortName">hadamard1_enable</obj_property>
+      <obj_property name="ObjectShortName">hadamard1_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/hadamard2_enable" type="logic">
+      <obj_property name="ElementShortName">hadamard2_enable</obj_property>
+      <obj_property name="ObjectShortName">hadamard2_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/hadamard3_enable" type="logic">
+      <obj_property name="ElementShortName">hadamard3_enable</obj_property>
+      <obj_property name="ObjectShortName">hadamard3_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/tanh_enable" type="logic">
+      <obj_property name="ElementShortName">tanh_enable</obj_property>
+      <obj_property name="ObjectShortName">tanh_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/en_for_6fifo" type="logic">
+      <obj_property name="ElementShortName">en_for_6fifo</obj_property>
+      <obj_property name="ObjectShortName">en_for_6fifo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/en_for_4fifo" type="logic">
+      <obj_property name="ElementShortName">en_for_4fifo</obj_property>
+      <obj_property name="ObjectShortName">en_for_4fifo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/\one(1)\/cellsi/enable_register" type="array">
+      <obj_property name="ElementShortName">enable_register[0:10]</obj_property>
+      <obj_property name="ObjectShortName">enable_register[0:10]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/Xs" type="array">
+      <obj_property name="ElementShortName">Xs[0:19][0:3]</obj_property>
+      <obj_property name="ObjectShortName">Xs[0:19][0:3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/outp" type="array">
+      <obj_property name="ElementShortName">outp[0:1]</obj_property>
+      <obj_property name="ObjectShortName">outp[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/enables" type="array">
+      <obj_property name="ElementShortName">enables[0:20]</obj_property>
+      <obj_property name="ObjectShortName">enables[0:20]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/hs" type="array">
+      <obj_property name="ElementShortName">hs[0:19][0:7]</obj_property>
+      <obj_property name="ObjectShortName">hs[0:19][0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/cs" type="array">
+      <obj_property name="ElementShortName">cs[0:19][0:7]</obj_property>
+      <obj_property name="ObjectShortName">cs[0:19][0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/zeros" type="array">
+      <obj_property name="ElementShortName">zeros[0:7]</obj_property>
+      <obj_property name="ObjectShortName">zeros[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/enable_for_classifier" type="array">
+      <obj_property name="ElementShortName">enable_for_classifier[0:5]</obj_property>
+      <obj_property name="ObjectShortName">enable_for_classifier[0:5]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_modules/nn/clsfr_en" type="logic">
+      <obj_property name="ElementShortName">clsfr_en</obj_property>
+      <obj_property name="ObjectShortName">clsfr_en</obj_property>
+   </wvobject>
+</wave_config>

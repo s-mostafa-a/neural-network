@@ -1,0 +1,24 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/ehsan/final_from_begining/final_from_begining.srcs/sources_1/new/Ctildet.vhd,1561474373,vhdl2008,,,,ctildets,,,,,,,,
+C:/Users/ehsan/final_from_begining/final_from_begining.srcs/sources_1/new/Ft.vhd,1561474226,vhdl2008,,,,fts,,,,,,,,
+C:/Users/ehsan/final_from_begining/final_from_begining.srcs/sources_1/new/It.vhd,1561474248,vhdl2008,,,,its,,,,,,,,
+C:/Users/ehsan/final_from_begining/final_from_begining.srcs/sources_1/new/NtoOneAdder.vhd,1561473766,vhdl2008,,,,ntooneadders,,,,,,,,
+C:/Users/ehsan/final_from_begining/final_from_begining.srcs/sources_1/new/Ot.vhd,1561474287,vhdl2008,,,,ots,,,,,,,,
+C:/Users/ehsan/final_from_begining/final_from_begining.srcs/sources_1/new/adder_module_real.vhd,1561452562,vhdl2008,,,,add_module_real,,,,,,,,
+C:/Users/ehsan/final_from_begining/final_from_begining.srcs/sources_1/new/cell.vhd,1561478539,vhdl2008,,,,cells,,,,,,,,
+C:/Users/ehsan/final_from_begining/final_from_begining.srcs/sources_1/new/classify.vhd,1561474960,vhdl2008,,,,classify,,,,,,,,
+C:/Users/ehsan/final_from_begining/final_from_begining.srcs/sources_1/new/constants_package.vhd,1561465176,vhdl2008,C:/Users/ehsan/final_from_begining/final_from_begining.srcs/sources_1/new/cell.vhd,,,constants_package,,,,,,,,
+C:/Users/ehsan/final_from_begining/final_from_begining.srcs/sources_1/new/hadamard.vhd,1561474446,vhdl2008,,,,hadamards,,,,,,,,
+C:/Users/ehsan/final_from_begining/final_from_begining.srcs/sources_1/new/matrix_multipler.vhd,1561473815,vhdl2008,,,,matrix_multiplers,,,,,,,,
+C:/Users/ehsan/final_from_begining/final_from_begining.srcs/sources_1/new/matrix_sigmoid.vhd,1561474201,vhdl2008,,,,matrix_sigmoids,,,,,,,,
+C:/Users/ehsan/final_from_begining/final_from_begining.srcs/sources_1/new/matrix_tanh.vhd,1561474351,vhdl2008,,,,matrix_tanhs,,,,,,,,
+C:/Users/ehsan/final_from_begining/final_from_begining.srcs/sources_1/new/multipler_module_real.vhd,1561478767,vhdl2008,,,,multipler_module_real,,,,,,,,
+C:/Users/ehsan/final_from_begining/final_from_begining.srcs/sources_1/new/neural_network.vhd,1561476853,vhdl,,,,neural_network,,,,,,,,
+C:/Users/ehsan/final_from_begining/final_from_begining.srcs/sources_1/new/package_util.vhd,1561470778,vhdl2008,C:/Users/ehsan/final_from_begining/final_from_begining.srcs/sources_1/new/cell.vhd;C:/Users/ehsan/final_from_begining/final_from_begining.srcs/sources_1/new/constants_package.vhd,,,package_util,,,,,,,,
+C:/Users/ehsan/final_from_begining/final_from_begining.srcs/sources_1/new/sigmoid_module_real.vhd,1561375832,vhdl2008,,,,sigmoid_module_real,,,,,,,,
+C:/Users/ehsan/final_from_begining/final_from_begining.srcs/sources_1/new/tanh_module_real.vhd,1561375819,vhdl2008,,,,tanh_module_real,,,,,,,,
+C:/Users/ehsan/final_from_begining/final_from_begining.srcs/sources_1/new/test_modules.vhd,1561477117,vhdl2008,,,,test_modules,,,,,,,,
+C:/Users/ehsan/final_from_begining/final_from_begining.srcs/sources_1/new/vector_adder.vhd,1561477972,vhdl2008,,,,vector_adders,,,,,,,,
